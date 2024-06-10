@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="grid-container">
+        <section id="about" class="grid-item">
+            <h2>About Me</h2>
+            <p>Hi, I'm [Your Name], a [Your Profession].</p>
+        </section>
+        <section id="portfolio" class="grid-item">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <img src="path/to/image1.jpg" alt="Project 1">
+                <video controls>
+                    <source src="path/to/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Description of Project 1.</p>
+            </div>
+        </section>
+        <section id="upload" class="grid-item">
+            <h2>Upload Your Work</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" name="myFile" id="myFile">
+                <button type="submit">Upload</button>
+            </form>
+            <p id="uploadStatus"></p>
+        </section>
+        <section id="blog" class="grid-item">
+            <h2>Blog</h2>
+            <article>
+                <h3>Blog Post 1</h3>
+                <p>Content of Blog Post 1...</p>
+            </article>
+        </section>
+        <section id="contact" class="grid-item">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 [Your Name]. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
